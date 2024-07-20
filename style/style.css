@@ -1,0 +1,303 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+h1,
+h2,
+h3,
+a,
+p,
+div{
+    letter-spacing: -0.03em;
+}
+.conteiner{
+    width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.conteiner:nth-child(4){
+    height: 1871px;
+}
+.conteiner:nth-child(5){
+    position: relative;
+    border-radius: 30px;
+    background: rgb(25, 28, 25);
+}
+.conteiner:nth-child(6){
+    margin-bottom: 0;
+    height: 223px;
+    background: #fff;
+    border-radius: 30px 30px 0 0;
+}
+.container_image{
+    width: 1400px;
+    height: 765px;
+    background-image: url(../resources/main_image.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 0 0 30px 30px;
+}
+.box_nav{
+    position: relative;
+    top: 27px;
+    width: 1155px;
+    height: 55px;
+    margin: 0 auto;
+}
+.box_logo{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 536px;
+    border-radius: 100px;
+    background: rgb(0, 0, 0);
+    border: 1px solid white;
+}
+.box__logo_name{
+    display: block;
+    padding: 0 9px 0 9px;
+    color: rgb(27, 255, 7);
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.11em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav{
+    display: inline-block;
+    vertical-align: 10px;
+    margin-right: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.nav:hover{
+    color: rgb(27, 255, 7);
+    text-decoration: underline;
+}
+.nav:nth-child(5){
+    margin-right: 0;
+}
+.box__text{
+    width: 430px;
+    height: 103px;
+    margin-top: 252px;
+    margin-bottom: 29px;
+    line-height: 26px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(76, 254, 5), 0 0 1em rgb(28, 255, 62), 0 0 0.2em blue;
+}
+h1{
+    width: 919px;
+    height: 205px;
+    font-size: 80px;
+    line-height: 70px;
+    color: #1bff07;
+}
+.main_first{
+    width: 1155px;
+    margin: 0 auto;
+}
+h2{
+    margin-bottom: 47px;
+    font-size: 55px;
+    line-height: 72px;
+}
+.main__image{
+    position: relative;
+    width: 1150px;
+    height: 550px;
+    background-image: url(../resources/newimage.png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.9) 100%),url(../resources/newimage.png);
+}
+.main__image:nth-child(3){
+    background-image: url(../resources/projecttwo.png);
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.9) 100%),url(../resources/projecttwo.png);  
+}
+.main__image:nth-child(4){
+    background-image: url(../resources/projectthree.png);
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.9) 100%),url(../resources/projectthree.png);
+    margin-bottom: 80px;
+}
+.main__name{
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+    font-size: 35px;
+    line-height: 46px;
+}
+.main__text{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 30px;
+    line-height: 39px;
+}
+.main__btn{
+    display: block;
+    width: 582px;
+    height: 153px;
+    padding: 56px 86px;
+    border-radius: 10px;
+    background: rgb(27, 255, 7);
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.main__btn:hover{
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(27, 255, 7);
+    border-radius: 10px;
+    color: rgb(27, 255, 7);
+}
+.main_second{
+    width: 1048px;
+    margin-left: 123px;
+}
+.main__second_box{
+    width: 1048px;
+    margin-bottom: 60px;
+}
+.main__second_box:before{
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    width: 45px;
+    height: 44px;
+    background-image: url(../resources/html.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main__second_box:nth-child(3):before{
+    background-image: url(../resources/js.png);
+}
+.main__second_box:nth-child(4):before{
+    background-image: url(../resources/library.png);
+}
+.main__second_box:nth-child(5):before{
+    background-image: url(../resources/mobile.png);
+}
+.main__second_name{
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 46px;
+    color: rgb(27, 255, 7);
+}
+.main__second_text{
+    width: 778px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+}
+.last_title{
+    width: 403px;
+    margin-left: 125px;
+    margin-bottom: 74px;
+    font-size: 35px;
+    line-height: 46px;
+}
+.last_image{
+    position: relative;
+    width: 1150px;
+    height: 235px;
+    margin-left: 125px;
+    margin-bottom: 358px;
+    background-image: url(../resources/lastone.png);
+    background-size: cover;
+    background-position: top -60px right 0;
+    border-radius: 30px;
+}
+.last_image:nth-child(3){
+    background-position: center;
+    background-image: url(../resources/lasttwo.png);
+}    
+.last_image:nth-child(4){
+    background-position: center;
+    background-image: url(../resources/lastthree.png);
+    margin-bottom: 420px;
+} 
+.last_box{
+    position: absolute;
+    top: 236px;
+    width: 1150px;
+    height: 283px;
+    padding: 40px 60px 40px 40px;
+    border-radius: 30px;
+    background: rgb(25, 28, 25);
+}
+.last__box_title{
+    margin-bottom: 15px;
+    font-size: 55px;
+    line-height: 72px;
+    color: rgb(27, 255, 7);
+}
+.last__box_text{
+    width: 724px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.info__box{
+    position: absolute;
+    width: 310px;
+    left: 126px;
+    bottom: 146px;
+    font-size: 22px;
+    line-height: 29px;
+}
+.info_box_image{ 
+    position: relative;
+    width: 727px;
+    height: 717px;
+    margin-left: 673px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px; 
+}
+.info__box_itman{
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px; 
+}
+.info__title{
+    margin-bottom: 28px;
+    font-size: 35px;
+    line-height: 60px;
+}
+.info__message{
+    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    text-decoration: none;
+}
+.info__message:hover{
+    color: rgb(27, 255, 7);
+}
+.footer__title{
+    margin-bottom: 66px;
+    padding-top: 76px;
+    margin-left: 125px;
+    font-family: Manrope;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+}
+.footer__warning{
+    margin-left: 125px;
+    font-family: Manrope;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
